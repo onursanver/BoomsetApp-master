@@ -14,7 +14,6 @@
 		C4097E7D22FB1A0D005C661C /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4097E7C22FB1A0D005C661C /* AuthModel.swift */; };
 		C4097E8022FB2F3B005C661C /* GroupCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4097E7F22FB2F3B005C661C /* GroupCollectionCell.swift */; };
 		C4D04B2A22FAEA2600044993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D04B2922FAEA2600044993 /* AppDelegate.swift */; };
-		C4D04B2C22FAEA2600044993 /* GroupListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D04B2B22FAEA2600044993 /* GroupListViewController.swift */; };
 		C4D04B2F22FAEA2600044993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D04B2D22FAEA2600044993 /* Main.storyboard */; };
 		C4D04B3122FAEA2700044993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D04B3022FAEA2700044993 /* Assets.xcassets */; };
 		C4D04B3422FAEA2700044993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D04B3222FAEA2700044993 /* LaunchScreen.storyboard */; };
@@ -33,7 +32,6 @@
 		C4097E7F22FB2F3B005C661C /* GroupCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCollectionCell.swift; sourceTree = "<group>"; };
 		C4D04B2622FAEA2600044993 /* BoomsetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoomsetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D04B2922FAEA2600044993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4D04B2B22FAEA2600044993 /* GroupListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListViewController.swift; sourceTree = "<group>"; };
 		C4D04B2E22FAEA2600044993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4D04B3022FAEA2700044993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4D04B3322FAEA2700044993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 		C4097E7622FB12D9005C661C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C4D04B2B22FAEA2600044993 /* GroupListViewController.swift */,
 				C4097E7422FB1299005C661C /* LoginViewController.swift */,
 			);
 			path = Controller;
@@ -265,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4D04B3C22FAF19C00044993 /* UIView-Extension.swift in Sources */,
-				C4D04B2C22FAEA2600044993 /* GroupListViewController.swift in Sources */,
 				C4097E7B22FB190E005C661C /* ResponseGroupsModel.swift in Sources */,
 				C4D04B3F22FAFA7C00044993 /* ApiService.swift in Sources */,
 				C4097E7522FB1299005C661C /* LoginViewController.swift in Sources */,

@@ -37,30 +37,4 @@ class ApiService: NSObject {
         }
     }
     
-    func getGroupModels(completionHandler:@escaping([GroupModel]?)->()) {
-        
-        guard let authModel = self.authModel else { return }
-        let headers = ["Authorization": "Token " + authModel.token, "Content-Type": "application/json"]
-        
-        Alamofire.request("https://api.boomset.com/groups", method: .get,  parameters: nil, encoding: JSONEncoding.default, headers: headers).responseJSON { response in
-            print(response)
-           
-            guard  response.result.isSuccess , let responseData = response.data else {
-                print("Error Apiiii")
-                completionHandler(nil)
-                return }
-            
-            print(response)
-            do {
-                let responseGroupModel = try JSONDecoder().decode(ResponseGroupsModel.self, from: responseData)
-                completionHandler(responseGroupModel.results)
-                
-            } catch let error {
-                print(error)
-                completionHandler(nil)
-            }
-        }
-    }
-}
-
-
+    
