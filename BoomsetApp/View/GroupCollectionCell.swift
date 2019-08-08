@@ -55,6 +55,7 @@ class GroupCollectionCell: UICollectionViewCell {
         addSubview(webTextLabel)
     }
     func setupAddConstraint(){
+        
         nameTextLabel.anchor(top: self.topAnchor, leading: self.leadingAnchor, bottom: nil, trailing: nil, paddingTop: 10, paddingleft: 10, paddingBottom: 0, paddingRight: 0, width: 0, height: 0, centerX: nil, centerY: nil)
         typeTextLabel.anchor(top: nameTextLabel.topAnchor, leading: self.nameTextLabel.trailingAnchor, bottom: nil, trailing: nil, paddingTop: 0, paddingleft: 10, paddingBottom: 0, paddingRight: 0, width: 0, height: 0, centerX: nil, centerY: nil)
         webTextLabel.anchor(top: nil, leading: self.leadingAnchor, bottom: self.bottomAnchor, trailing: nil, paddingTop: 0, paddingleft: 10, paddingBottom: 10, paddingRight: 0, width: 0, height: 0, centerX: nil, centerY: nil)

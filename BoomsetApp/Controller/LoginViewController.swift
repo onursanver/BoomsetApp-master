@@ -43,7 +43,9 @@ class LoginViewController: UIViewController {
             print("Api Model gelmedi")
              self.view.backgroundColor = .red
             return }
-            print("nbu isis yapacak : " , authM)
+            
+            
+            print("basarili: " , authM)
             self.view.backgroundColor = .green
             self.showViewController()
         }
